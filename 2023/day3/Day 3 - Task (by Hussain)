@@ -1,0 +1,91 @@
+Basic Linux Commands :-
+
+1. Write a command to view what's written in a file.
+• Explaination : 'cat' command is used to view the contents of a file.
+• Syntax - cat filename
+• Example - cat myfile.txt
+
+
+
+2. Write a command to change the access permissions of a file.
+• Explaination : 'chmod' command is used to change the access mode of a file.
+• Syntax - chmod [reference] [operator] [mode] filename
+• Example - chmod u=rwx,g=rw,o=r myfile.txt (u means user, g means group, o means others) (r means read, w means write, x means execute permission).
+
+
+
+3. Write a command to check which commands you have run till now.
+• Explaination : 'history' command is used to display the history of your commands you have run till now.
+• Syntax - history
+• Example - history
+
+
+
+4. Write a command to remove a Directory.
+• Explaination : 'rmdir' command is used to remove an empty directory.
+• Syntax - rmdir directory_Name
+• Example - rmdir myDirectory
+
+
+
+5. Write a command to create a file name it 'fruits.txt' and then view the contents of this file.
+• Explaination : 'cat' command can also help us to write some contents in a file by using an Greater-than operator (>).
+• Syntax - cat > filename.txt
+• Example - cat > fruits.txt (now start writing some contents)
+• Orange
+• Apple
+• Mango
+• Banana
+• Cherry
+• Kiwi
+• Guava
+• press 'ctrl + d' to exit from typing, then type 'cat fruits.txt' to view the contents of fruits.txt file.
+
+
+
+6. Write a command to copy all the contents from 'fruits.txt' file to a new file name it 'devops.txt'.
+• Explaination : 'cp' command is used to copy the contents of one file to another.
+• Syntax - cp filename1.txt filename2.txt 
+• Example - cp fruits.txt devops.txt
+• You May be thinking we have not create a 'devops.txt' file, 'cp' command is so amazing that it will automatically create a file with name 'devops.txt' if there is no file available with this name.
+
+
+
+7. Write a command to display only Top 3 lines from fruits.txt file.
+• Explaination : 'head' command is used to display top 10 lines of a file, we have to use '-n' option to view specific number of lines from a file.
+• Syntax - head filename
+• Example - head -n 3 fruits.txt
+
+
+
+8. Write a command to display only Bottom 3 lines from fruits.txt file.
+• Explaination : 'tail' command is used to display bottom 10 lines of a file, we have to '-n' option to view specific number of lines from a file.
+• Syntax - tail filename
+• Example - tail -n 3 fruits.txt
+
+
+
+9. Write a command to create a file name it 'colors.txt' and then view the contents of this file.
+• Explaination : 'cat' command can also help us to write some contents in a file by using an Greater-than operator (>).
+• Syntax - cat > filename.txt
+• Example - cat > colors.txt (now start writing some contents)
+• Black
+• Red
+• Yellow
+• Green
+• Cyan
+• Blue
+• Brown
+• press 'ctrl + d' to exit from typing, then type 'cat colors.txt' to view the contents of colors.txt file.
+
+
+
+10. Write a command to find the difference between two files.
+• Explaination : 'diff' command is used to display the differences in the files by comparing the files line by line.
+• Syntax - diff filename1.txt filename2.txt 
+• Example - diff fruits.txt colors.txt
+
+
+
+
+
